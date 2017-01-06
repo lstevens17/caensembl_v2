@@ -36,7 +36,7 @@ sub content {
   return qq(
     <div class="twocol-right right">
       <a href="http://www.caenorhabditis.org" title="caenorhabditis.org">caenorhabditis.org</a> |
-      <a href="mailto:lewis.stevens@ed.ac.uk" title="lewis.stevens@ed.ac.uk">contact us</a> |
+      <a href="mailto:lewis.stevens\@ed.ac.uk" title="lewis.stevens\@ed.ac.uk">contact us</a> |
       <a href="http://www.ensembl.org/" title="ensembl.org"><img style="height:auto;margin-top:-5px;background:none;border:none;" src="/i/empowered.png"></img></a>
     </div>)
   ;
