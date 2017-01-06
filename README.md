@@ -1,2 +1,4 @@
 # caensembl_v2
-Files and code associated with the update Caenorhabditis Genomes Project Ensembl genome browser
+Files and code associated with the update Caenorhabditis Genomes Project Ensembl genome browser. 
+
+See caenorhabditis.org for more... 
