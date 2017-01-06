@@ -37,18 +37,15 @@ sub content {
 
 ## BEGIN CAENSEMBL MODIFICATIONS...
 my $html = '<div class=lb-ackn-logos>';
-#$html .= '<a href="https://www.keio.ac.jp"><img title="Keio University" class="lb-footer-logo" src="/img/keio_logo.png"></a>';
 $html .= '<a href="http://www.ed.ac.uk"><img title="University of Edinburgh" class="lb-footer-logo" src="/img/edinburgh_logo.png"></a>';
-#$html .= '<a href="http://bbsrc.ac.uk"><img title="bbsrc" class="lb-footer-logo" src="/img/bbsrc_logo.jpg"></a>';
-
 $html .= '</div>';
 
-#  return sprintf( qq(
-#  <div class="column-two left">
-#		   %s release %s - %s -
-#		  tardigrades.org &copy; <span class="print_hide"><a href="http://www.ed.ac.uk/" style="white-space:nowrap">Edinburgh University</a> / EnsEMBL &copy; <a href="http://www.ebi.ac.uk/" style="white-space:nowrap">EBI</a> -- Tardigrade logo by <a href="http://www.kumamushisan.net/en/labo.html" style="white-space:nowrap">©TARUDI & Camo Sakamoto</a></span>
-#      <span class="screen_hide_inline">tardigrades.org</span> %s
-#  </div>),     "tardigrades.org", "1", "November 2016", $html
+  return sprintf( qq(
+  <div class="column-two left">
+		   %s release %s - %s -
+		  caenorhabditis.org &copy; <span class="print_hide"><a href="http://www.ed.ac.uk/" style="white-space:nowrap">Edinburgh University</a> / EnsEMBL &copy; <a href="http://www.ebi.ac.uk/" style="white-space:nowrap">EBI</a></span>
+      <span class="screen_hide_inline">caenorhabditis.org</span> %s
+  </div>),     'caenorhabditis.org", "2", "January 2017", $html
 ## ...END CAENSEMBL MODIFICATIONS
 	       );
 
