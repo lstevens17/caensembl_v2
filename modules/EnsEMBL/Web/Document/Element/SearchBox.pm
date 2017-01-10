@@ -42,7 +42,7 @@ sub search_options {
  return [
     $self->hub->species ? (
     'ensemblthis'     => { 'label' => 'Search ' . $self->species_defs->SPECIES_COMMON_NAME, 'icon' => 'species/48/' . $self->hub->species . '.png'  }) : (
-    'ensemblunit'     => { 'label' => "Search $sitename",       'icon' => 'e.png'      }),
+    'ensemblunit'     => { 'label' => "Search $sitename",       'icon' => 'cgp_favicon.png'      }),
   ];
 }
 ## ...END LEPBASE MODIFICATIONS
